@@ -30,22 +30,22 @@ const About = () => {
         <h2 className="text-3xl font-bold text-white mb-12 text-center">Our Core Values</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-2xl font-bold text-blue-400 mb-4">🎯 Quality First</h3>
             <p className="text-gray-400">We prioritize accuracy and quality in every code review, ensuring developers get the most valuable feedback.</p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-2xl font-bold text-blue-400 mb-4">📚 Continuous Learning</h3>
             <p className="text-gray-400">We believe in the power of education and provide insights that help developers grow and improve.</p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-2xl font-bold text-blue-400 mb-4">🔓 Accessibility</h3>
             <p className="text-gray-400">We're committed to making advanced code review tools accessible to all developers, everywhere.</p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-2xl font-bold text-blue-400 mb-4">🔒 Privacy & Security</h3>
             <p className="text-gray-400">Your code is yours. We respect your privacy and never store, share, or misuse your code.</p>
           </div>
@@ -57,7 +57,7 @@ const About = () => {
         <h2 className="text-3xl font-bold text-white mb-6">Powered by Latest Technology</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-2xl font-bold text-white mb-4">🤖 Google Gemini AI</h3>
             <p className="text-gray-400 mb-4">
               We leverage Google's cutting-edge Gemini AI model to provide accurate, intelligent code analysis. The Gemini model understands code patterns, best practices, and can identify complex issues that traditional tools miss.
@@ -70,7 +70,7 @@ const About = () => {
             </ul>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-2xl font-bold text-white mb-4">⚛️ React & Node.js</h3>
             <p className="text-gray-400 mb-4">
               Built with modern technologies including React for the frontend and Node.js for the backend. This ensures a fast, responsive, and reliable user experience.

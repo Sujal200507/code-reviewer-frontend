@@ -83,7 +83,7 @@ const Features = () => {
           {languages.map((lang, index) => (
             <div 
               key={index}
-              className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 text-center hover:border-blue-600 transition"
+              className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 text-center hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105"
             >
               <div className="text-4xl mb-3">{lang.icon}</div>
               <p className="text-white font-semibold">{lang.name}</p>

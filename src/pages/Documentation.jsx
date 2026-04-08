@@ -18,7 +18,7 @@ const Documentation = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Step 1 */}
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <div className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white font-bold rounded-full mb-4 text-xl">
               1
             </div>
@@ -29,7 +29,7 @@ const Documentation = () => {
           </div>
 
           {/* Step 2 */}
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <div className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white font-bold rounded-full mb-4 text-xl">
               2
             </div>
@@ -40,7 +40,7 @@ const Documentation = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <div className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white font-bold rounded-full mb-4 text-xl">
               3
             </div>
@@ -57,7 +57,7 @@ const Documentation = () => {
         <h2 className="text-3xl font-bold text-white mb-8">💡 Tips & Tricks</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-white font-bold mb-4">✨ Better Reviews</h3>
             <ul className="text-gray-400 space-y-3">
               <li>• <strong className="text-white">Add comments:</strong> Include comments explaining complex logic for better analysis</li>
@@ -67,7 +67,7 @@ const Documentation = () => {
             </ul>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition transform hover:scale-105">
             <h3 className="text-white font-bold mb-4">⚡ Performance Tips</h3>
             <ul className="text-gray-400 space-y-3">
               <li>• <strong className="text-white">Async reviews:</strong> Code is reviewed asynchronously for speed</li>
@@ -84,42 +84,42 @@ const Documentation = () => {
         <h2 className="text-3xl font-bold text-white mb-8">❓ Frequently Asked Questions</h2>
         
         <div className="space-y-6">
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition">
             <h3 className="text-white font-bold mb-3">What languages are supported?</h3>
             <p className="text-gray-400">
               We support all major programming languages including JavaScript, Python, React, Node.js, TypeScript, Java, C++, Go, and more. Our AI is trained on diverse codebases and can analyze code in virtually any language.
             </p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition">
             <h3 className="text-white font-bold mb-3">Is my code secure and private?</h3>
             <p className="text-gray-400">
               Yes! Your code is completely secure. We do not store, save, or share your code with anyone. Each review is processed in isolation, and your code is immediately deleted after analysis. Your privacy is our top priority.
             </p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition">
             <h3 className="text-white font-bold mb-3">How accurate are the reviews?</h3>
             <p className="text-gray-400">
               Our reviews are powered by Google's Gemini AI, which is trained on millions of code samples. The accuracy is typically 95%+ for bug detection, and the suggestions are based on industry best practices and modern coding standards.
             </p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition">
             <h3 className="text-white font-bold mb-3">What if I don't agree with a suggestion?</h3>
             <p className="text-gray-400">
               AI suggestions are meant to guide and educate. You're the final decision maker for your code. If you disagree with a suggestion, feel free to implement your own solution. We encourage critical thinking and professional judgment.
             </p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition">
             <h3 className="text-white font-bold mb-3">Can I use this in production?</h3>
             <p className="text-gray-400">
               Absolutely! Many teams use AI Code Reviewer as part of their development workflow. While we recommend combining AI reviews with human code reviews for quality assurance, AI reviews are excellent for catching common issues and improving code quality.
             </p>
           </div>
 
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 hover:border-blue-600 hover:bg-slate-800/70 transition">
             <h3 className="text-white font-bold mb-3">How long does a review take?</h3>
             <p className="text-gray-400">
               Most reviews are completed in 2-5 seconds. The time depends on code length and complexity. Our system is optimized for speed without compromising on the quality of analysis.

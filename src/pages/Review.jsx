@@ -14,7 +14,7 @@ function Review() {
   const [isLoading, setIsLoading] = useState(false);
 
   return (
-    <div className="flex h-screen bg-slate-950 text-white gap-4 p-4 pt-0">
+    <div className="flex flex-col lg:flex-row min-h-screen bg-slate-950 text-white gap-4 p-4 pt-0">
       <Left 
         code={code} 
         setCode={setCode} 

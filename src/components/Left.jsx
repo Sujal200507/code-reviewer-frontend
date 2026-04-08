@@ -49,20 +49,20 @@ const Left = ({ code, setCode, setReview, setReviewSource, setIsLoading, isLoadi
   };
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col min-h-[320px]">
       <h2 className="text-xl font-bold mb-2 text-gray-200">
         Write code for review 🧑‍💻💻:
       </h2>
 
-      <div className="editor-container relative bg-slate-800 border border-slate-700 rounded-md flex-grow">
+      <div className="editor-container relative bg-slate-800 border border-slate-700 rounded-md flex-grow min-h-[320px]">
         <Editor
           value={code}
           onValueChange={(code) => setCode(code)}
           highlight={(code) => highlight(code, languages.js)}
           padding={12}
-          className="font-mono text-slate-300"
+          className="font-mono text-slate-300 min-h-[320px]"
           style={{
-            minHeight: "100%",
+            minHeight: "320px",
           }}
           disabled={isLoading} // Disable editor while loading
         />
